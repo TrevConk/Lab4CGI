@@ -15,7 +15,7 @@ with open('Lab4DataDump.txt', 'w') as f:
 print('Content-type: text/html\n\n')
 print('''
 <html>
-<form action="/cgi-bin/4cgi.py" method="POST">
+<form action="/cgi-bin/Lab4CGI.py" method="POST">
   <input type="radio" name="LEDPin" value="1"> LED 1 <br>
   <input type="radio" name="LEDPin" value="2"> LED 2 <br>
   <input type="radio" name="LEDPin" value="3"> LED 3 <br>
