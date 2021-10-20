@@ -1,6 +1,8 @@
 #!/usr/bin/python37all
 import cgi
+import cgitb
 import json
+cgitb.enable()
 data = cgi.FieldStorage()
 LEDNum = data.getvalue('LED')
 BrightnessNum = data.getvalue('Brightness')
