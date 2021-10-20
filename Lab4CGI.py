@@ -24,5 +24,5 @@ print('''
 print('<input type="range" name="BrightVal" min="0" max="100" value="%s"><br>' % Brightness)
 print('</form>')
 print('<b>Brightness = %s</b>' % Brightness)
-print('<b>Last selected Led = %b</b>' %LED)
+print('<b>Last selected Led = %b</b>' % LED)
 print('</html>')
