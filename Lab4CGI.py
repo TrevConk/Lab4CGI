@@ -3,7 +3,9 @@ import cgi
 import cgitb
 import json
 cgitb.enable()
+
 data = cgi.FieldStorage()
+
 LEDNum = data.getvalue('LED')
 BrightnessNum = data.getvalue('Brightness')
 
@@ -31,7 +33,7 @@ print('<input type="range" name="brightness" min="0" max="100" value="',Brightne
 print('<input type="submit" value="Submit">')
 
 
-print('<b>',cgi.FieldStorage(),'</b')
+print('<b>',BrightnessNum,'</b')
 
 
 print ('<br>')
