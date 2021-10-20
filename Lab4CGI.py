@@ -26,8 +26,7 @@ print('<form action="/cgi-bin/Lab4CGI.py" method="POST" target="_self">')
 print('<input type="radio" name="LED" value="1"> LED 1 <br>')
 print('<input type="radio" name="LED" value="2"> LED 2 <br>')
 print('<input type="radio" name="LED" value="3"> LED 3 <br>')
-print('<input type="range" name="brightness" min="0" max="100" value="%s"><br>' % BrightnessNum)
-print('<Brightness is %s' %BrightnessNum)
+print('<input type="range" name="brightness" min="0" max="100" value="',BrightnessNum,'"><br>')
 
 
 print ('<br>')
