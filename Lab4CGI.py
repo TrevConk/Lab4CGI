@@ -12,7 +12,7 @@ with open('Lab4DataDump.txt','w') as f:
 
 #Setting up html page
 print('Content-type: text/html\n\n')
-print('<html')
+print('<html>')
 print('<head>')
 print('<title>Lab4</title>')
 print('<meta http-equiv="refresh" content="2">') # 
