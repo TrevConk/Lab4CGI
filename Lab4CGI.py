@@ -1,6 +1,5 @@
 #!/usr/bin/python37all
-
-import cg
+import cgi
 import json
 data = cgi.FieldStorage()
 LEDNum = data.getvalue('LED')
