@@ -29,7 +29,7 @@ print('<input type="radio" name="LED" value="2"> LED 2 <br>')
 print('<input type="radio" name="LED" value="3"> LED 3 <br>')
 print('<input type="range" name="brightness" min="0" max="100" value="',BrightnessNum,'"><br>')
 
-print('<b>',data.keys(),'</b')
+print('<b>',cgi.FieldStorage(),'</b')
 
 
 print ('<br>')
