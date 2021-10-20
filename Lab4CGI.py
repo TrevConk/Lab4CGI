@@ -6,7 +6,7 @@ import json
 cgitb.enable()
 data = cgi.FieldStorage()
 
-LED = data.getvalue('LEDpin')
+LED = data.getvalue('LEDpin)
 Brightness = data.getvalue('BrightVal')
 dataDump = {'LED':LED,'BrightVal':Brightness}
 with open('Lab4DataDump.txt', 'w') as f:
