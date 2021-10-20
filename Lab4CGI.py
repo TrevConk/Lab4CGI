@@ -21,7 +21,7 @@ print('''
   <input type="radio" name="LEDPin" value="3"> LED 3 <br>
   <input type="submit" value="Submit">
 ''')
-print('<input type="range" name="BrightBal" min="0" max="100" value="%s"><br>' % Brightness)
+print('<input type="range" name="BrightVal" min="0" max="100" value="%s"><br>' % Brightness)
 print('</form>')
 print('<b>Brightness = %s</b>' % Brightness)
 print('</html>')
