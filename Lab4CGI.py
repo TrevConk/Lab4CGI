@@ -13,8 +13,7 @@ with open('Lab4DataDump.txt','w') as f:
 print('Content-type: text/html\n\n')
 print('<html>')
 print('<head>')
-print('<title>Lab4</title>')
-print('<meta http-equiv="refresh" content="2">') # 
+print('<title>Lab4</title>')# 
 print('</head>')
 print('<body>')
 print('<div style="width:600px;background:#AAAAFF;border:1px;textalign:center">')
