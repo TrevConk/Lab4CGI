@@ -23,7 +23,7 @@ print('<br>')
 print('<font size="3" color="black" face="helvetica">')
 
 #adding in changing values
-print('<form action="/cgi-bin/Lab4CGI.py" method="POST" target="_self">')
+print('<form action="/cgi-bin/Lab4CGI.py" method="POST"')
 print('<input type="radio" name="LED" value="1"> LED 1 <br>')
 print('<input type="radio" name="LED" value="2"> LED 2 <br>')
 print('<input type="radio" name="LED" value="3"> LED 3 <br>')
