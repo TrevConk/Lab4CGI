@@ -21,7 +21,6 @@ print('<body>')
 print('<div style="width:600px;background:#AAAAFF;border:1px;textalign:center">')
 print('<br>')
 print('<font size="3" color="black" face="helvetica">')
-print('selection = ' + LEDNum)
 
 #adding in changing values
 print('<form action="/cgi-bin/Lab4CGI.py" method="POST" target="_self">')
